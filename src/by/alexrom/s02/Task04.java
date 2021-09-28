@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Task04 {
     public static void main(String[] args) {
+        // поправка
         System.out.println("Введите координаты точки а ");
         int x1 = requestNumber();
         int y1 = requestNumber();
