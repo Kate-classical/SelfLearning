@@ -6,6 +6,7 @@ import java.util.List;
 
 public interface ILibraryBookService {
 
+    void init(Book book);
     void addBook(Book book);
     List<Book> getBooksSortedByYear(List<Book> books);
     List<Book> getBooks();
